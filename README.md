@@ -23,7 +23,7 @@ todo
          |___ test_task.py  
 ```
 
-Open your terminal and change the directory to the project root:  
+Open your terminal and change the directory to the project root, then type:   
 ```
 $python3 todo.py
 ```
