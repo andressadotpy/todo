@@ -7,27 +7,27 @@ The project was organized as:
 
 ```
 todo  
-|   todo.py      
+|___todo.py      
 │  
 └─── todo  
-    |   __init__.py  
-    |   menu.py  
-    │   note.py  
-    |   task_container.py  
-    |   task.py  
+    |___ __init__.py  
+    |___ menu.py  
+    │___ note.py  
+    |___ task_container.py  
+    |___ task.py  
     └─── tests  
-         │   __init__.py  
-         │   test_menu.py  
-         |   test_note.py  
-         |   test_task_container.py  
-         |   test_task.py  
+         │___ __init__.py  
+         │___ test_menu.py  
+         |___ test_note.py  
+         |___ test_task_container.py  
+         |___ test_task.py  
 ```
 
-To run the program, type on your terminal on the project root:
+Open your terminal and change the directory to the project root:  
 ```
 $python3 todo.py
 ```
-To run the tests, type on your terminal on the project root:
+To run the tests:  
 ```
 $python3 -m unittest
 ```
