@@ -1,4 +1,7 @@
 class Note:
+    """Represents a Note to a task.
+    Each task can have one note. A Note can be edited if the user wants to.
+    """
 
     def __init__(self, memo):
         self.message = memo
